@@ -47,7 +47,7 @@ function userPrompt() {
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;    
     
-    while (0 !== currentIndex) 
+    while (0 !== currentIndex) {
         
         randomIndex = Math.floor(Math.random() * currentIndex); currentIndex -= 1;
 
@@ -55,7 +55,7 @@ function shuffle(array) {
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
 
-    
+    }
 
     return array;
     }
@@ -119,4 +119,3 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-

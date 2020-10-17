@@ -58,7 +58,7 @@ function generatePassword() {
      
         var cHARGuess = emptyArray[cHARIndex];
         
-        var placearray = generateNEW()
+
         placearray.push(cHARGuess)
        
         placearray.toString();
@@ -66,7 +66,7 @@ function generatePassword() {
    
     }
 
-    function generateNEW() {
+
         return [];
     }
 } 
